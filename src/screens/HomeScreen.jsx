@@ -6,10 +6,9 @@ export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text>Olá eu sou a Home Screen</Text>
-      <Button 
-        mode="outlined"
-        onPress={()=>navigation.navigate("About")}
-      >Ir para Sobre</Button>
+      <Button mode="outlined" onPress={() => navigation.navigate("About")}>
+        Ir para Sobre
+      </Button>
     </View>
   );
 }
